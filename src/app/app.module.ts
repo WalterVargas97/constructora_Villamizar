@@ -12,7 +12,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const AppRoutes:Routes=[
   {
-    path:'/proyectos',
+    path:'proyectos',
     component:ProyectosComponent
   },
   {
