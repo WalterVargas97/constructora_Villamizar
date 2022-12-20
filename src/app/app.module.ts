@@ -8,7 +8,18 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { RouterModule, Routes } from '@angular/router';
 
+const AppRoutes:Routes=[
+  {
+    path:'/proyectos',
+    component:ProyectosComponent
+  },
+  {
+    path:'',
+    component:HomeComponent
+  }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +31,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(AppRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
