@@ -10,16 +10,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { RouterModule, Routes } from '@angular/router';
 
-const AppRoutes:Routes=[
-  {
-    path:'proyectos',
-    component:ProyectosComponent
-  },
-  {
-    path:'',
-    component:HomeComponent
-  }
-];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +23,7 @@ const AppRoutes:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(AppRoutes),
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 <nav class="icon-bar">
   <div class="activecontainer" >
-    <a class="active" href="home"><i class=""><img src="assets/imagenes/sinfondo.png" alt="Logo"></i></a>
+    <a class="active" routerLink="home"><i class=""><img src="assets/imagenes/sinfondo.png" alt="Logo"></i></a>
   </div>
   <div class="navigation">
     <input type="checkbox" class="menu-bakery">
@@ -8,17 +8,16 @@
 
     </div>
     <ul class="menu">
-        <li> <a href="home">Inicio</a></li>
-        <li> <a href="nosotros">Nosotros</a></li>
-        <li> <a href="proyectos">Proyectos</a></li>
-        <li> <a href="#">Servicios</a></li>
-        <li> <a href="#">Registrarme  </a></li>
+        <li> <a routerLink="">Inicio</a></li>
+        <li> <a routerLink="nosotros">Nosotros</a></li>
+        <li> <a routerLink="proyectos">Proyectos</a></li>
+        <li> <a routerLink="servicios">Servicios</a></li>
+        <li> <a routerLink="formulario">Registrarme  </a></li>
     </ul>
 </div>
   <div class="sear_container">
     <a href="proyectos"><i class="fa fa-search"></i></a>
   </div>
 </nav>
-<a href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de tu producto:" class="btn_whatsapp" target="_blank"><i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
+<a href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de este proyecto:" class="btn_whatsapp" target="_blank"><i><img class="img_whatsapp" src="assets/imagenes/whatsapp.png" alt="whatsapp_icono"></i></a>
 <router-outlet></router-outlet>
-
