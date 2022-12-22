@@ -1,0 +1,23 @@
+[33mcommit bca05faca778d42233ab7ef3e86fc167189161de[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: wally1997 <walterbolivar97@gmail.com>
+Date:   Mon Dec 19 20:59:22 2022 -0500
+
+    se modifican algunos colores del menú y el bordeado
+
+[33mcommit 98231e03f0a1a3036880db5cc2e6283215224ff0[m
+Author: wally1997 <walterbolivar97@gmail.com>
+Date:   Mon Dec 19 20:51:48 2022 -0500
+
+    se realizan cambios en las rutas, se modifica el menú con hamburguesa disfuncional aún, header y todo se desarrollará desde mobile first
+
+[33mcommit 413fe876a3ad7ad8383979e446d437bfc7c8fefc[m
+Author: wally1997 <walterbolivar97@gmail.com>
+Date:   Fri Dec 16 19:38:21 2022 -0500
+
+     se crean componentes para subir el repositorio a  github
+
+[33mcommit 87495fe07b9a79b3be14663d8dfe248a14a6b5dc[m
+Author: wally1997 <walterbolivar97@gmail.com>
+Date:   Mon Dec 12 21:26:28 2022 -0500
+
+    initial commit
