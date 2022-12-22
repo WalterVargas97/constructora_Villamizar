@@ -9,6 +9,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { RouterModule, Routes } from '@angular/router';
     ProyectosComponent,
     NosotrosComponent,
     FormularioComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
