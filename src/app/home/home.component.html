@@ -3,7 +3,7 @@
     <input placeholder="Busca tus proyectos" class="search_input" type="search" name="searcher" id="">
   </div>
   <h2 class="nosmotiva" >¿Qué nos motiva?</h2>
-  <iframe width="264" height="142" src="https://www.youtube.com/embed/ptc4Awb0UpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe  src="https://www.youtube.com/embed/ptc4Awb0UpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <h3 class="follow_us"> No duddes en buscarnos en youtube, siguenos!.</h3>
   <hr>
 </section>
@@ -11,9 +11,16 @@
   <h2>Proyectos</h2>
   <br>
   <h3>Acá puedes ver nuestros proyectos, no dudes en comunicarte con nosotros</h3>
-  <div class="slider_projects">
+  <div id="slider" class="slider">
 
+    <div class="slides">
+      <div class="slide active">Slide 1</div>
+      <div class="slide">Slide 2</div>
+      <div class="slide">Slide 3</div>
+    </div>
+    <button id="prev" class="prev">anterior </button>
+    <button id="next" class="next">siguiente</button>
   </div>
 
 </main>
-<app-footer></app-footer>
+
