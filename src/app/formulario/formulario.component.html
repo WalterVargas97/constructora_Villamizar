@@ -1,1 +1,62 @@
-<p>formulario works!</p>
+<div class="bienvenida">
+  <div class="container_welcome">
+  </div>
+  <div class="container_familia">
+  </div>
+</div>
+<h2> Registrate </h2>
+<form  class="form" id="survey-form">
+  <section class="datos">
+      <label for="name" class="campo" id="name-label">Name
+      <br>
+      <input for="name" placeholder="Enter your name" id="name" name="name" type="text" required>
+      </label>
+      <br>
+      <label class="campo" id="email-label">
+      Email
+      <br>
+      <input placeholder="Enter Your Email" id="email" name="email" type="email" required/>
+      </label>
+      <br>
+      <label class="campo" id="number-label"> Age (Optional)
+      <br>
+      <input id="number"  placeholder="Age" name="Age"
+      type="number" min="17" max="90"
+      none="HTML5 validation error"/>
+      </label>
+  </section>
+  <fieldset>
+    <label><h3>What is your favorite feature of freeCodeCamp?</h3></label>
+    <select id="dropdown" required>
+      <option id="dropdown" > Select an option</option>
+      <option id="dropdown" > Challenges</option>
+      <option id="dropdown" > Projects</option>
+      <option id="dropdown" > Community</option>
+    </select>
+  </fieldset>
+  <section id="dropdown" required>
+    <h3>What would you like to see improved? (Check all that apply)</h3>
+    <label class="dropdown">
+    <input for="Front-end Projects" id="Front-end Projects" type="checkbox" required name="terms-and-conditions" value="1"class="checkbox" />Front-end Projects
+    </label>
+    <br>
+    <label class="dropdown">
+    <input for="Back-end Projects" id="Back-end Projects" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Back-end Projects
+    </label>
+    <br>
+    <label class="dropdown">
+    <input id="survey-form" type="checkbox" required name="terms-and-conditions" class="checkbox" value="3" />Data visualization
+    </label>
+    <label class="comments" id="survey-form">
+      <h3 id="survey-form">Any Comments or suggestions?</h3>
+    </label>
+    <label id="survey-form" class="comments">
+      <textarea for="comentarios" name="retro" id="survey-form"
+      type="text-area" class="comentarios"></textarea>
+    </label>
+    <br>
+    <label>
+      <input class="submit" type="submit" id="submit"/>
+    </label>
+</section>
+</form>
