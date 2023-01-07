@@ -7,48 +7,52 @@
 <h2> Registrate </h2>
 <form  class="form" id="survey-form">
   <section class="datos">
-      <label for="name" class="campo" id="name-label">Name
+      <label for="name" class="campo" id="name-label">Nombre
       <br>
-      <input for="name" placeholder="Enter your name" id="name" name="name" type="text" required>
+      <input for="name" placeholder="Escribe tu nombre" id="name" name="name" type="text" required>
       </label>
       <br>
       <label class="campo" id="email-label">
       Email
       <br>
-      <input placeholder="Enter Your Email" id="email" name="email" type="email" required/>
+      <input placeholder="Escribe tu Email" id="email" name="email" type="email" required/>
       </label>
       <br>
-      <label class="campo" id="number-label"> Age (Optional)
+      <label class="campo" id="number-label"> Número de contacto
       <br>
-      <input id="number"  placeholder="Age" name="Age"
-      type="number" min="17" max="90"
+      <input id="number"  placeholder="Número de contacto" name="Age"
+      type="number" min="3000000000" max="4000000000"
       none="HTML5 validation error"/>
       </label>
   </section>
   <fieldset>
-    <label><h3>What is your favorite feature of freeCodeCamp?</h3></label>
+    <label><h3>¿Cómo te gustaría ser contactado?</h3></label>
     <select id="dropdown" required>
       <option id="dropdown" > Select an option</option>
-      <option id="dropdown" > Challenges</option>
-      <option id="dropdown" > Projects</option>
-      <option id="dropdown" > Community</option>
+      <option id="dropdown" > Número de Contacto</option>
+      <option id="dropdown" > Email</option>
+      <option id="dropdown" > Presencial</option>
     </select>
   </fieldset>
   <section id="dropdown" required>
-    <h3>What would you like to see improved? (Check all that apply)</h3>
+    <h3>¿En que servicio estas interesado? (Puedes seleccionar varios)</h3>
     <label class="dropdown">
-    <input for="Front-end Projects" id="Front-end Projects" type="checkbox" required name="terms-and-conditions" value="1"class="checkbox" />Front-end Projects
+    <input for="Construcción" id="construccion" type="checkbox" required name="terms-and-conditions" value="1"class="checkbox" />Construcción
     </label>
     <br>
     <label class="dropdown">
-    <input for="Back-end Projects" id="Back-end Projects" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Back-end Projects
+    <input for="Acabados" id="acabados" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Acabados
     </label>
     <br>
     <label class="dropdown">
-    <input id="survey-form" type="checkbox" required name="terms-and-conditions" class="checkbox" value="3" />Data visualization
+      <input for="Reparación" id="reparacion" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Reparación
+      </label>
+      <br>
+    <label class="dropdown">
+    <input for="Venta de inmuebles" id="survey-form" type="checkbox" required name="terms-and-conditions" class="checkbox" value="3" />Venta de inmuebles
     </label>
     <label class="comments" id="survey-form">
-      <h3 id="survey-form">Any Comments or suggestions?</h3>
+      <h3 id="survey-form">Añade detalles del servicio requerido</h3>
     </label>
     <label id="survey-form" class="comments">
       <textarea for="comentarios" name="retro" id="survey-form"
