@@ -6,6 +6,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 
+
+
 const routes: Routes = [
   {
     path:'proyectos',
