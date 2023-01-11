@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 
@@ -28,7 +29,11 @@ const routes: Routes = [
   {
     path:'nosotros',
     component:NosotrosComponent
-  }
+  },
+  {
+    path:'slider',
+    component:SliderComponent
+  },
 ];
 
 @NgModule({

@@ -10,6 +10,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     NosotrosComponent,
     FormularioComponent,
     ServiciosComponent,
-    FooterComponent
+    FooterComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
