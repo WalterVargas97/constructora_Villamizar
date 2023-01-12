@@ -50,8 +50,7 @@
 
 
 /*Desde acá comienza ajustes de menú */
-.menu-bakery
-  display: none
+
 .menu
   display: flex
   flex-direction: row
@@ -192,7 +191,7 @@
     width: 15%
     height: 10%
     z-index: 3
-    cursor:pointer
+    cursor: pointer
     opacity: 0
 
   .menu
@@ -222,7 +221,7 @@
   .navigation input:checked ~ .hamburguer
     background: transparent
 
-  .navigation input:checked ~ .hamburguer,.navigation input:checked ~ .hamburguer::before,.navigation input:checked ~ .hamburguer::after, .navigation input:checked ~ .menu
+
   .navigation input:checked ~ .hamburguer::before
     top:0
     transform: rotate(-45deg)
@@ -238,4 +237,6 @@
     left: 0
     box-shadow: -20px 0 40px rgba(0,0,0,0.3)
 
-
+@media (min-width:851px)
+  .menu-bakery
+    display: none
