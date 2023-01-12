@@ -1,27 +1,22 @@
-# Villamizar
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1>Welcome to the repository of Constructora Villamizar   :fa-building-o:</h1>
+<h3>
+Technologies used 
+</h3>
+<p>
+This repository contains the Web App code of our company, it was developed with Angular, Saas, TypeScript, some libraries, for the back-end Python will be used with the Django framework and for MySQL databases.
+</p>
+<h3>
+Description
+</h3>
+<p>
+This app contains different components for each view of the page, a video about our business work was introduced, it contains sliders, WhatsApp API for direct contact, a footer with all our social networks, registration to have a database of our clients, search filters, all our current projects and will soon have a payment gateway, accompanied by another visualization for marketing plans.
+</p>
+<h3>
+How to use?
+</h3>
+<p>
+To use our repository it is necessary to install NPM, Angular, install Angular material, Clone the repository and you will be able to use it locally
+</p>
+<h3>
+The credits are for Walter Vargas, developer in charge of the project, from the design of the page, to the development and completion of it.
+</h3>
