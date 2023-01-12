@@ -1,11 +1,10 @@
 
-
 .slideshow_container
   background-color: #e2ffff
   color: black
   text-align: center
   width: 100%
-  height: 300px
+  height: 400px
   padding: 10px  0px 20px 0rem
   margin: 10px 0px 0px 0px
   display: flex
@@ -42,9 +41,9 @@ to
   justify-content: center
   background-color: #e2ffff
   box-sizing: border-box
-  width: 90%
+  width: 100%
   flex-direction: row
-  margin-bottom: 10px
+  margin-bottom: 1.5rem
 
 @-webkit-keyframes fade
   from
@@ -54,3 +53,36 @@ to
 
 .anchor_register img
   width: 100%
+
+/* mediaquerys */
+@media (min-width:550px)
+  .mySlides
+    width: 350px
+  .customer
+    font-size: 1.8rem
+  .sliders
+    margin-bottom: 3rem
+
+
+@media (min-width:750px)
+  .mySlides
+    width: 400px
+  .customer
+    font-size: 2rem
+  .sliders
+    margin-bottom: 5rem
+  .slideshow_container
+    height: 430px
+
+@media (min-width:1050px)
+  .mySlides
+    width: 600px
+  .customer
+    font-size: 2.5rem
+  .sliders
+    margin-bottom: 14rem
+  .slideshow_container
+    height: 600px
+
+
+
