@@ -1,3 +1,4 @@
+<p align= center><img src="https://i.postimg.cc/Vkn7cHKy/sinfondo.png"></p>
 <h1>Welcome to the repository of Constructora Villamizar   :fa-building-o:</h1>
 <h3>
 Technologies used 
