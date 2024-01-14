@@ -25,7 +25,7 @@
   padding: 0.5rem
 
 .navigation
-  margin-right: 10%
+  margin-right: 3%
 
 .activecontainer img
   padding: 0
@@ -54,13 +54,13 @@
 .menu
   display: flex
   flex-direction: row
-  font-size: 50px
+  font-size: 40px
   list-style: none
 
 
 .menu a
   color: black
-  font-size: 22px
+  font-size: 20px
   padding: 5px 8px
   text-decoration: none
 
@@ -71,15 +71,15 @@
 /* acá comienzan ajustes de api de whatsapp
 .btn_whatsapp
   position: fixed
-  width: 15%
+  width: 6%
   height: 8%
-  line-height: 55px
+  line-height: 40px
   bottom: 30%
   right: -1px
-  background-color: #E2FFFF
+  background-color: #25D366
   border-radius: 15px
   text-align: center
-  font-size: 30px
+  font-size: 20px
   box-shadow: 0px 1px  5px rgba(0,0,0,4)
   z-index: 0
   padding: 5px 7px 5px 8px
@@ -92,12 +92,27 @@
   height: 100%
 
 /* MediaQueries Responsive Design */
+@media (max-width: 549px)
+  .img_whatsapp
+    width:80%
+  .btn_whatsapp
+    width: 8%
+
+@media (max-width: 400px)
+
+  .img_whatsapp
+    width:100%
+  .btn_whatsapp
+    width: 12%
+
+
+
 @media (min-width:550px)
 
   .img_whatsapp
     width:80%
   .btn_whatsapp
-    width: 10%
+    width: 6%
   .activecontainer img
     width: 55%
     margin-right: 2rem
@@ -123,7 +138,7 @@
 @media (max-width: 850px)
   .navigation
     display: flex
-    justify-content: center
+    justify-content:  flex-end
     align-items: center
     margin: 0% 10% 0% 0%
 
@@ -133,7 +148,7 @@
 
   .menu
     display: flex
-    justify-content: center
+    justify-content:  flex-end
     flex-direction: row
     align-items: center
     z-index: 1
@@ -235,7 +250,7 @@
 
   .navigation input:checked ~ .menu
     left: 0
-    box-shadow: -20px 0 40px rgba(0,0,0,0.3)
+    box-shadow: -20px 0 20px rgba(0,0,0,0.3)
 
 @media (min-width:851px)
   .menu-bakery
