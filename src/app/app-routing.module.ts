@@ -9,6 +9,7 @@ import { SliderComponent } from './slider/slider.component';
 
 
 
+
 const routes: Routes = [
   {
     path:'proyectos',
