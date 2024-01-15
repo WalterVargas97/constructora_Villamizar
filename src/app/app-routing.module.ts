@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FormularioComponent } from './formulario/formulario.component';
+import { FormularioComponent } from './form/formulario.component';
 import { HomeComponent } from './home/home.component';
-import { NosotrosComponent } from './nosotros/nosotros.component';
-import { ProyectosComponent } from './proyectos/proyectos.component';
-import { ServiciosComponent } from './servicios/servicios.component';
+import { NosotrosComponent } from './about us/nosotros.component';
+import { ProyectosComponent } from './proyects/proyectos.component';
+import { ServiciosComponent } from './our services/servicios.component';
 import { SliderComponent } from './slider/slider.component';
 
 
