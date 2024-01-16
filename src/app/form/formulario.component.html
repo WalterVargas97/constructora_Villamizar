@@ -5,7 +5,10 @@
   </div>
 </div>
 <h2> Registrate </h2>
-<form  class="form" id="survey-form">
+<form  class="form" id="survey-form"  action="https://formsubmit.io/send/walterbolivar97@gmail.com" method="POST" >
+
+  <input type="hidden" name="_autoresponse" value="Congratulations, your mail is send, you will contacted">
+
   <section class="datos">
       <label for="name" class="campo" id="name-label">Nombre
       <br>
@@ -17,50 +20,33 @@
       <br>
       <input placeholder="Escribe tu Email" id="email" name="email" type="email" required/>
       </label>
+      <label for="subject">Asunto</label>
+      <input type="text" name="subject" id="subject">
       <br>
       <label class="campo" id="number-label"> Número de contacto
       <br>
       <input id="number"  placeholder="Número de contacto" name="Age"
-      type="number" min="3000000000" max="4000000000"
-      none="HTML5 validation error"/>
+      type="number"
+      none="HTML5 validation error" name="number"/>
+      <!-- min="3000000000" max="4000000000" -->
       </label>
   </section>
-  <fieldset>
-    <label><h3>¿Cómo te gustaría ser contactado?</h3></label>
-    <select id="dropdown" required>
-      <option id="dropdown" > Select an option</option>
-      <option id="dropdown" > Número de Contacto</option>
-      <option id="dropdown" > Email</option>
-      <option id="dropdown" > Presencial</option>
-    </select>
-  </fieldset>
+
   <section id="dropdown" required>
-    <h3>¿En que servicio estas interesado? (Puedes seleccionar varios)</h3>
-    <label class="dropdown">
-    <input for="Construcción" id="construccion" type="checkbox" required name="terms-and-conditions" value="1"class="checkbox" />Construcción
-    </label>
-    <br>
-    <label class="dropdown">
-    <input for="Acabados" id="acabados" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Acabados
-    </label>
-    <br>
-    <label class="dropdown">
-      <input for="Reparación" id="reparacion" value="2" type="checkbox" required name="terms-and-conditions" class="checkbox" />Reparación
-      </label>
-      <br>
-    <label class="dropdown">
-    <input for="Venta de inmuebles" id="survey-form" type="checkbox" required name="terms-and-conditions" class="checkbox" value="3" />Venta de inmuebles
-    </label>
+
     <label class="comments" id="survey-form">
       <h3 id="survey-form">Añade detalles del servicio requerido</h3>
     </label>
-    <label id="survey-form" class="comments">
-      <textarea for="comentarios" name="retro" id="survey-form"
+    <label for="survey-form" id="survey-form" class="comments">
+      <textarea for="comentarios" name="description" id="survey-form"
       type="text-area" class="comentarios"></textarea>
     </label>
     <br>
-    <label>
+    <input name="_formsubmit_id" type="text" style="display:none">
+    <label for="submit">
       <input class="submit" type="submit" id="submit"/>
     </label>
+    <input type="hidden" name="_next" value="Thanx por envíar tus datos">
+    <input name="_redirect" type="hidden" id="name" value="http://localhost:4200">
 </section>
 </form>
