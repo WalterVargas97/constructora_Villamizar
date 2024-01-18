@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./formulario.component.sass']
 })
 export class FormularioComponent {
+  
 
 }
