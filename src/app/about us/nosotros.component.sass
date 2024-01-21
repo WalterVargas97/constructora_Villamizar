@@ -1,15 +1,48 @@
-/* ajustes video*/
+/* Ajustes de la primera sección */
 .nosotros_container
   display: flex
-  flex-direction: column
-  justify-content: center
+  flex-direction: row
+  justify-content: space-evenly
   align-items: center
-  background: rgba(161, 237, 237, 0.30)
-  padding: 30px
-.video_container iframe
-  width:40%
-  height: 30%
-  margin: 20px
+  background:  url("../../assets/imagenes/fondoRojo.jpeg") no-repeat center center fixed
+  background-color: rgba(251, 249, 249, 0.2)
+  margin-top: 1px
+  overflow: visible
+  background-position: top center
+
+
+.text-container
+  flex: 1
+
+.image-container
+  flex: 1
+  overflow: visible /* Permite que el contenido sobresalga del contenedor */
+
+.nosotros_container div
+  flex: 1 /* Hace que cada div ocupe el mismo espacio en el contenedor */
+  max-width: 30% /* Limita el ancho de cada div al 50% del contenedor */
+
+.nosotros_container img
+  max-width: 12% /* La imagen no será más ancha que su contenedor */
+  height: auto /* Mantiene la proporción de la imagen */
+  display: block /* Ajusta el comportamiento del espacio alrededor de la imagen */
+  margin: 0 auto
+  position: absolute
+  transform: scale(1.8) translateX(25%)
+  margin-left: 15%
+
+
+
+.nosotros_container h2
+  color: #FFFFFF
+
+.nosotros_container p
+  color: #FFFFFF /* Cambia el color del texto según tus preferencias */
+
+  .follow_us
+  font-size: 25px
+
+
 
 /* Misión, visión y valores*/
 .nosotros_text

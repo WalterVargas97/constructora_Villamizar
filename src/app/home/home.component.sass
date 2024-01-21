@@ -28,21 +28,24 @@ iframe
 .register
   display: flex
   flex-direction: column
-  background: #008080
+  background: #F73243
   margin: 15px
   border-radius: 10px
   justify-content: center
   align-items: center
+
 .title_register
   color: white
   padding: 30px 30px 10px 30px
   align-content: center
   border-radius: 5px
+
 .container_register
   display: flex
-  background: black
+  background: #A6207F
   margin: 5px 5px 15px 5px
   width: 35%
+  height: 40%
   align-content: center
   color: white
   justify-content: center
@@ -50,13 +53,66 @@ iframe
   border-radius: 20px
   padding: 7px
 
+.container_purpura
+  display: flex
+  background: #2EADB9
+  width: 70%
+  align-content: center
+  color: white
+  justify-content: center
+  align-content: center
+  border-radius: 20px
+  padding: 15px
+
+.nosotros_container
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+  align-items: center
+  background:  url("../../assets/imagenes/fondoRojo.jpeg") no-repeat center center fixed
+  background-color: rgba(251, 249, 249, 1)
+  margin-top: 1px
+  overflow: visible
+  background-position: top center
+
+
+.text-container
+  flex: 1
+
+.image-container
+  flex: 1
+  overflow: visible /* Permite que el contenido sobresalga del contenedor */
+
+.nosotros_container div
+  flex: 1 /* Hace que cada div ocupe el mismo espacio en el contenedor */
+  max-width: 30% /* Limita el ancho de cada div al 50% del contenedor */
+
+.nosotros_container img
+  max-width: 12% /* La imagen no será más ancha que su contenedor */
+  height: auto /* Mantiene la proporción de la imagen */
+  display: block /* Ajusta el comportamiento del espacio alrededor de la imagen */
+  margin: 0 auto
+  position: absolute
+  transform: scale(1.8) translateX(25%)
+  margin-left: 15%
+
+
+
+.nosotros_container h2
+  color: #FFFFFF
+
+.nosotros_container p
+  color: #FFFFFF /* Cambia el color del texto según tus preferencias */
+
+.follow_us
+  font-style: italic
+
 .botton_register
   background: black
   color: white
   align-self: center
 
 .anchor_register
-  background: black
   color: white
   text-align: center
   text-decoration: none
