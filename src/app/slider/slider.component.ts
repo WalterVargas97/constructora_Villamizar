@@ -7,8 +7,13 @@ import { SliderService } from '../slider.service';
   styleUrls: ['./slider.component.sass']
 })
 export class SliderComponent {
-  constructor(private sliderservice: SliderService) {
-    this.sliderservice.loadScript();
-  }
+  sliderImages = [
+    "/assets/imagenes/EquipoMarketing.jpg",
+    "/assets/imagenes/hojaMarketing.jpg",
+    "/assets/imagenes/mujerConGrafico.jpg",
+    "/assets/imagenes/hojaMarketing.jpg",
+    "/assets/imagenes/mujerConGrafico.jpg"
+
+  ]
 
 }
