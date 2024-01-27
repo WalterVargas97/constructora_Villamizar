@@ -3,46 +3,83 @@
   display: flex
   flex-direction: column
 
-
-
 .container_construccion
-  text-align: left
+  text-align: center
+  width: 100%
 
+
+
+.container_ventas h1
+  font-size: 2.5rem /* Tamaño de la fuente */
+  font-weight: bold /* Peso de la fuente */
+  color: #333 /* Color del texto */
+  text-align: center /* Alineación del texto */
+  margin-bottom: 20px
+
+.container_ventas h1:after
+  content: ""
+  display: block
+  width: 50% /* Longitud de la línea */
+  height: 3px /* Grosor de la línea */
+  background-color: rgba(247, 50, 67, 1) /* Color de la línea */
+  margin: 10px auto
+
+.container_ventas p
+  font-size: 1.2rem /* Tamaño de la fuente */
+  color: #666 /* Color del texto */
+  text-align: center /* Alineación del texto */
+  margin-bottom: 30px
 
 .img_construccion
-  width: 160px
-  height: 150px
-  align-self: right
-  padding-left: 15px
+  width: 100%
+  height: auto
 
+.img.construccion, .img.acabados,.img.reparacion
+  display: flex
+  justify-content: center
+  align-items: center
 
 .container_reparacion
-  text-align: left
-  padding-top: -100rem
-  padding-bottom: 2rem
+  text-align: center
+  width: 100%
 
 .img_reparacion
-  width: 160px
-  height: 150px
-  align-self: left
-  padding-right: 15px
+  width: 100%
+  height: auto
+
+
 
 .container_acabados
-  text-align: right
+  text-align: center
+  width: 100%
+
 
 .img_acabados
-  width: 180px
-  height: 130px
-  align-self: left
-  padding-right: 15px
+  width: 100%
+  height: auto
 
+
+
+h2
+  font-size: 1.5rem /* Tamaño de la fuente */
+  font-weight: bold /* Peso de la fuente */
+  color: #333 /* Color del texto */
+  margin-bottom: 10px
+
+p
+  font-size: 1.2rem /* Tamaño de la fuente */
+  color: #666 /* Color del texto */
+  text-align: center /* Alineación del texto */
+  margin-bottom: 30px
 
 
 .construccion, .acabados, .reparacion
   display: flex
   flex-direction: row
   justify-content: space-between
-  align-items: center
+  width: 100%
+
+
 
 
 .container_ventas
@@ -54,20 +91,20 @@
   .img img
     width: 220px
     padding: 20px 20px 20px 20px
-    height: 180px
+    height: auto
 
 
 @media (min-width:750px)
   .img img
     width: 270px
     padding: 30px 30px 30px 30px
-    height: 220px
+    height: auto
 
 
 
 @media (min-width:1050px)
   .img img
-    width: 320px
+    width: 50%
     padding: 40px 40px 40px 40px
-    height: 270px
+    height: auto
 
