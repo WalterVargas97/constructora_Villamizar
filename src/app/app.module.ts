@@ -31,7 +31,7 @@ register();
     ServiciosComponent,
     FooterComponent,
     SliderComponent,
-    SwitchLanguagesComponent,
+    SwitchLanguagesComponent
 
   ],
   imports: [
@@ -52,7 +52,7 @@ register();
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
-export function HttpLoaderFactory(http: HttpClient){
-  return new TranslateHttpLoader(http, "./assets/languages",".josn");
+export function HttpLoaderFactory(http:HttpClient){
+  return new TranslateHttpLoader(http, './assets/languages/' ,'.json');
 
 }

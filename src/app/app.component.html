@@ -1,3 +1,4 @@
+<app-switch-languages></app-switch-languages>
 <nav class="icon-bar">
   <div class="activecontainer" >
     <a class="active" routerLink=""><i class="img_container"><img src="assets/imagenes/sinfondo.png" alt="Logo CommunityEntergroup"></i></a>
@@ -7,8 +8,8 @@
     <div class="hamburguer">
     </div>
     <ul class="menu">
-        <li> <a routerLink="">Home</a></li>
-        <li> <a routerLink="nosotros">About us</a></li>
+        <li> <a routerLink="">{{ "home" | translate }}</a></li>
+        <li> <a routerLink="nosotros">{{ "about us" | translate }}</a></li>
         <li> <a routerLink="servicios">Services</a></li>
         <li> <a routerLink="formulario">Contact</a></li>
         <li> <a routerLink="proyectos">Privacy Policy</a></li>
@@ -18,7 +19,5 @@
 <a href="https://t.me/CommunityEntergroup" class="btn_telegram" target="_blank">
   <img class="img_telegram" src="assets/imagenes/telegram.png" alt="telegram_icono">
 </a>
-
-<app-switch-languages></app-switch-languages>
 <router-outlet></router-outlet>
 <app-footer></app-footer>

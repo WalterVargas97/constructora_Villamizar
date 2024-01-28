@@ -9,8 +9,9 @@ import { TranslateService  } from '@ngx-translate/core';
 export class SwitchLanguagesComponent {
 
   options=[
-    {value:"en", display:"English"},
-    {value:"es", display:"Español"}
+    {value:"es", display:"Es"},
+    {value:"en", display:"En"}
+
     ];
 
   constructor(private translate: TranslateService){}

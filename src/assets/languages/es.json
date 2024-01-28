@@ -1,3 +1,8 @@
 {
-  "hello": "Hola Mundo"
+  "hello": "Hola Mundo",
+  "home":"Inicio",
+  "about us": "Nosotros",
+  "services":"Servicios",
+  "contact": "Contactar",
+  "privacy":"Politica de privacidad"
 }
