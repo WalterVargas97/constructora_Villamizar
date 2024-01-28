@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "villamizar:build:production"
+              "browserTarget": "communityEnterGroup:build:production"
             },
             "development": {
-              "browserTarget": "villamizar:build:development"
+              "browserTarget": "communityEnterGroup:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "villamizar:build"
+            "browserTarget": "communityEnterGroupr:build"
           }
         },
         "test": {

@@ -1,0 +1,66 @@
+.tarjeta
+  display: flex
+  flex-direction: column
+
+  align-items: center
+  justify-content: space-between /* Ajusta el espacio entre elementos */
+  width: 300px /* Ancho fijo para mejor control */
+  height: 400px /* Alto fijo para mejor proporción */
+  border-radius: 10px /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) /* Sombra sutil */
+  background-color: #fff /* Fondo blanco */
+  margin: 10px /* Separación entre tarjetas */
+  transition: all 0.3s ease-in-out /* Transición suave al hover */
+
+
+.tarjeta:hover
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) /* Sombra más marcada al hover */
+  transform: translateY(-5px) /* Efecto de elevación al hover */
+
+
+.imagenContainer
+  width: 100%
+  height: 200px /* Alto fijo para mejor proporción */
+  overflow: hidden
+
+
+.imagenContainer img
+  width: 100%
+  height: 100%
+  object-fit: cover /* Recorta la imagen para cubrir toda el área */
+
+
+.contenidoTarjeta
+  padding: 20px
+  text-align: center
+  font-family: sans-serif /* Fuente más moderna */
+
+
+.contenidoTarjeta h3
+  font-size: 18px
+  font-weight: bold
+  margin-bottom: 10px
+
+
+.contenidoTarjeta p
+  font-size: 14px
+  color: #666 /* Color gris para la descripción */
+
+.botonContactar
+  display: inline-block
+  padding: 10px 20px
+  border-radius: 5px
+  font-size: 14px
+  font-weight: bold
+  text-align: center
+  text-decoration: none
+  color: #fff
+  background-color: #000 /* Color del botón */
+  cursor: pointer
+  transition: all 0.3s ease-in-out
+
+
+.botonContactar:hover
+  background-color: #333 /* Color al pasar el cursor */
+
+

@@ -7,13 +7,21 @@ import { SliderService } from '../slider.service';
   styleUrls: ['./slider.component.sass']
 })
 export class SliderComponent {
-  sliderImages = [
-    "/assets/imagenes/EquipoMarketing.jpg",
-    "/assets/imagenes/hojaMarketing.jpg",
-    "/assets/imagenes/mujerConGrafico.jpg",
-    "/assets/imagenes/hojaMarketing.jpg",
-    "/assets/imagenes/mujerConGrafico.jpg"
-
+  tarjetas = [{
+    "imagen": "/assets/imagenes/EquipoMarketing.jpg",
+    "titulo": "Content Writing",
+    "descripcion":"asasd"
+  },
+  {
+    "imagen": "/assets/imagenes/hojaMarketing.jpg",
+    "titulo": "Social Media Marketing (SMM)",
+    "descripcion":"prueba"
+  },
+  {
+    "imagen": "/assets/imagenes/mujerConGrafico.jpg",
+    "titulo": "Pay Per Click (PPC) Management",
+    "descripcion":"iishhh"
+  }
   ]
 
 }
