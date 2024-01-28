@@ -1,11 +1,12 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { tslib }  from 'tslib';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProyectosComponent } from './proyects/proyectos.component';
-import { NosotrosComponent } from './about us/nosotros.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
 import { FormularioComponent } from './form/formulario.component';
 import { ServiciosComponent } from './our services/servicios.component';
 import { RouterModule, Routes } from '@angular/router';
