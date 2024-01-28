@@ -2,5 +2,7 @@
   "hello": "Hello World",
   "home":"Home",
   "about us": "About us",
-  "services":"Services"
+  "services":"Services",
+  "contact": "Contact",
+  "privacy":"Privacy Policy"
 }
