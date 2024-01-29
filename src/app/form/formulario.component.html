@@ -5,8 +5,7 @@
   </div>
 </div>
 <h2> Registrate </h2>
-<form  class="form" id="survey-form"  action="https://formsubmit.io/send/yeisondiaz@communityentergroup.com" method="POST" >
-  <input type="hidden" name="_autoresponse" value="Congratulations, your mail is send, you will contacted">
+<form  class="form" id="survey-form"  action="https://formsubmit.io/send/info@communityentergroup.com" method="POST" >
   <section class="datos">
       <label for="name" class="campo" id="name-label">Nombre</label>
       <input for="name" placeholder="Escribe tu nombre" id="name" name="name" type="text" required>
@@ -17,18 +16,15 @@
       <input id="number"  placeholder="Número de contacto" name="Age"
       type="number"
       none="HTML5 validation error" name="number"/>
-      <!-- min="3000000000" max="4000000000" -->
       <label for="subject">Message</label>
       <input type="text" name="subject" id="subject">
   </section>
-
   <section id="dropdown" required>
-    <input name="_formsubmit_id" type="text" style="display:none">
+    <input name="_formsubmit_id" href="https://t.me/CommunityEntergroup" type="text" style="display:none">
     <label for="submit">
-      <input class="submit" type="submit" id="submit"/>
+      <input class="submit" routerLink="formulario" type="submit" id="submit" value="enviar"/>
+      <input type="hidden" name="_next" value="Thanx por envíar tus datos">
     </label>
-    <input type="hidden" name="_next" value="Thanx por envíar tus datos">
-    <input type="checkbox"  id="btn-modal">
     <div class="container-modal">
       <div class="content-modal">
         <h2>Felicidades</h2>
@@ -38,5 +34,6 @@
         </div>
       </div>
     </div>
+
 </section>
 </form>
