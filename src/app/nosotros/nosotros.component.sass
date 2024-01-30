@@ -8,11 +8,13 @@
   background-color: rgba(251, 249, 249, 0.2)
   margin-top: 1px
   overflow: visible
-  background-position: top center
+  background-position: center
 
 
 .text-container
   flex: 1
+  margin-left: 5%
+  padding-bottom: 2%
 
 .image-container
   flex: 1
@@ -20,10 +22,11 @@
 
 .nosotros_container div
   flex: 1 /* Hace que cada div ocupe el mismo espacio en el contenedor */
-  max-width: 30% /* Limita el ancho de cada div al 50% del contenedor */
+  max-width: 80% /* Limita el ancho de cada div al 50% del contenedor */
+
 
 .nosotros_container img
-  max-width: 12% /* La imagen no será más ancha que su contenedor */
+  max-width: 18% /* La imagen no será más ancha que su contenedor */
   height: auto /* Mantiene la proporción de la imagen */
   display: block /* Ajusta el comportamiento del espacio alrededor de la imagen */
   margin: 0 auto
@@ -31,16 +34,23 @@
   transform: scale(1.8) translateX(25%)
   margin-left: 15%
 
+.arrow
+  display: flex
+  justify-content: center
 
+.arrow img
+  margin-right: 50%
 
 .nosotros_container h2
   color: #FFFFFF
 
 .nosotros_container p
   color: #FFFFFF /* Cambia el color del texto según tus preferencias */
+  font-size: 15px
+  text-align: justify
 
 .follow_us
-  font-size: 25px
+  font-size: 15px
 
 
 
@@ -68,11 +78,13 @@
     width: 80%
   .nosmotiva
     padding-bottom: 1.5%
-    font-size: 26px
+    font-size: 20px
   .follow_us
-    font-size: 21px
+    font-size: 15px
   .nosotros_text
-    font-size: 21px
+    font-size: 15px
+  .nosotros_container img
+    max-width: 13%
 
 @media (min-width:750px)
   .video_section
@@ -85,9 +97,11 @@
     padding-bottom: 1.5%
     font-size: 29px
   .follow_us
-    font-size: 23px
+    font-size: 15px
   .nosotros_text
     font-size: 23px
+  .nosotros_container img
+    max-width: 11%
 
 
 @media (min-width:1050px)
@@ -101,18 +115,20 @@
     padding-bottom: 1.5%
     font-size: 35px
   .follow_us
-    font-size: 26px
+    font-size: 15px
   .nosotros_text
     font-size: 26px
-
-@media (min-width:1200px)
   .nosotros_container img
     max-width: 10%
 
+@media (min-width:1200px)
+  .nosotros_container img
+    max-width: 11%
+
 @media (min-width:1500px)
   .nosotros_container img
-    max-width: 7%
+    max-width: 9%
 
 @media (min-width:1850px)
   .nosotros_container img
-    max-width: 5%
+    max-width: 7%

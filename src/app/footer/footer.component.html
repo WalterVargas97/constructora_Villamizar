@@ -18,12 +18,23 @@
     <h3 class="title_email">Info@communityentergroup.com</h3>
   </div>
 </div>
-<div class="register">
-  <h3 class="title_register"> Recuerda que puedes contactarnos!</h3>
-  <div class="container_register">
-    <div class="container_purpura">
-      <a class="anchor_register" routerLink="formulario"> Contactar </a>
-    </div>
-    </div>
+<div>
+  <div class="title_container">
+    <h2 class="construction_title">{{ "accesosRapidos" | translate }}</h2>
+  </div>
+  <div class="direction_container">
+    <h3 class="title_direction" routerLink="formulario">{{ "footerContact" | translate }}</h3>
+  </div>
+  <div class="number_container">
+    <a href="https://t.me/CommunityEntergroup" class="btn_telegram" target="_blank">
+    <h3 class="title_number" href="https://t.me/CommunityEntergroup">{{ "footerTelegram" | translate }}</h3>
+    </a>
+  </div>
+  <div class="email_container">
+
+    <h3 class="title_email" routerLink="proyectos">{{ "footerPolicy" | translate }}</h3>
+  </div>
 </div>
+
+
 </footer>

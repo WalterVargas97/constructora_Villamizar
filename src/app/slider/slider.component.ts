@@ -7,21 +7,29 @@ import { SliderService } from '../slider.service';
   styleUrls: ['./slider.component.sass']
 })
 export class SliderComponent {
+
+
   tarjetas = [{
     "imagen": "/assets/imagenes/EquipoMarketing.jpg",
     "titulo": "Content Writing",
-    "descripcion":"asasd"
+    "descripcion":"",
+    "colorOpacidad":"rgba(46, 173, 185, 0.2)"
   },
   {
     "imagen": "/assets/imagenes/hojaMarketing.jpg",
     "titulo": "Social Media Marketing (SMM)",
-    "descripcion":"prueba"
+    "descripcion":"",
+    "colorOpacidad":"rgba(46, 173, 185, 0.2)"
   },
   {
     "imagen": "/assets/imagenes/mujerConGrafico.jpg",
     "titulo": "Pay Per Click (PPC) Management",
-    "descripcion":"iishhh"
+    "descripcion":"",
+    "colorOpacidad":"rgba(46, 173, 185, 0.2)"
   }
-  ]
+  ];
+   estilosTarjeta = {
+    opacity: '{{ tarjeta.colorOpacidad }}'
+  };
 
 }

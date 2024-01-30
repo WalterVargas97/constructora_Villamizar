@@ -3,12 +3,12 @@ coverflow-effect-rotate="0" coverflow-effect-stretch="0" coverflow-effect-depth=
 coverflow-effect-slide-shadows="false" class="swipercotainer">
  <swiper-slide class="tarjeta" *ngFor="let tarjeta of tarjetas">
   <div class="imagenContainer">
-    <img [src]="tarjeta.imagen" alt="Imagen de la tarjeta">
+    <img class="imagenCard" [src]="tarjeta.imagen" alt="Imagen de la tarjeta" [ngStyle]="estilosTarjeta">
   </div>
   <div class="contenidoTarjeta">
     <h3>{{ tarjeta.titulo }}</h3>
     <p>{{ tarjeta.descripcion }}</p>
-    <button class="botonContactar" routerLink="servicios">Contactar</button>
+    <button class="botonContactar" routerLink="servicios" [ngStyle]="estilosTarjeta">Más Información</button>
   </div>
 </swiper-slide>
 </swiper-container>
