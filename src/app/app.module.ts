@@ -17,6 +17,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
 import { SwitchLanguagesComponent } from './switch-languages/switch-languages.component';
+import { PresentacionComponent } from './presentacion/presentacion.component';
 // register Swiper custom elements
 register();
 
@@ -31,7 +32,9 @@ register();
     ServiciosComponent,
     FooterComponent,
     SliderComponent,
-    SwitchLanguagesComponent
+    SwitchLanguagesComponent,
+    PresentacionComponent,
+
 
   ],
   imports: [

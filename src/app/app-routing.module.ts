@@ -6,6 +6,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProyectosComponent } from './proyects/proyectos.component';
 import { ServiciosComponent } from './our services/servicios.component';
 import { SliderComponent } from './slider/slider.component';
+import { PresentacionComponent } from './presentacion/presentacion.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,11 @@ const routes: Routes = [
     path:'slider',
     component:SliderComponent
   },
+  {
+    path:'presentacion',
+    component:PresentacionComponent
+  }
+
 ];
 
 @NgModule({
