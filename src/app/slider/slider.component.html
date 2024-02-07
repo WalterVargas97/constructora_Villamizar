@@ -8,7 +8,7 @@ coverflow-effect-slide-shadows="false" class="swipercotainer">
   <div class="contenidoTarjeta">
     <h3>{{ tarjeta.titulo }}</h3>
     <p>{{ tarjeta.descripcion }}</p>
-    <button class="botonContactar" routerLink="servicios" [ngStyle]="estilosTarjeta">Más Información</button>
+    <button class="botonContactar" routerLink="servicios" [ngStyle]="estilosTarjeta">{{ "sliderMoreInfo" | translate }}</button>
   </div>
 </swiper-slide>
 </swiper-container>

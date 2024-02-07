@@ -1,5 +1,5 @@
 {
- 
+
   "home":"Inicio",
   "about us": "Nosotros",
   "services":"Servicios",
@@ -18,9 +18,12 @@
   "valoresp4":"• El conocimiento es la base de las buenas decisiones, permite que los datos guíen tus proyectos.",
   "valoresp5":"• Branding asertivo.",
   "valoresp6":"• La imagen de la compañía es el punto de partida para interesar a tus clientes, mantén tu empresa siempre enfocada en el mercado.",
+  "sliderMoreInfo":"Más Información",
   "homet":"Servicios de marketing digital",
   "homep":"El marketing digital es el uso de canales en línea para llegar a los clientes e interactuar con ellos. Puede ser una herramienta poderosa para que empresas de todos los tamaños se conecten con su público objetivo, generen conocimiento de la marca y generen clientes potenciales. Existe una amplia gama de servicios de marketing digital disponibles, cada uno con sus propios beneficios únicos. Algunos de los servicios más comunes incluyen:",
   "accesosRapidos":"Accesos Rápidos",
+  "rememberYouCanContact":"Recuerda que puedes contactarnos!",
+  "homeContact":"Contactar",
   "footerContact":"• Contactar",
   "footerTelegram":"• Telegram",
   "footerPolicy":"• Politica de privacidad"
