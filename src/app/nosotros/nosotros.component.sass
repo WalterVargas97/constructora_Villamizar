@@ -1,133 +1,70 @@
-.nosotros_container
+.body
+  height: 100hv
   display: flex
-  flex-direction: row
-  justify-content: space-evenly
   align-items: center
-  background:  url("../../assets/imagenes/fondoRojo.jpeg") no-repeat center center fixed
-  background-color: rgba(251, 249, 249, 0.2)
-  margin-top: 1px
-  overflow: visible
-  background-position: center
+  justify-content: space-evenly
+  font-family: poppins
+  background: white
 
 
-.text-container
-  flex: 1
-  margin-left: 5%
-  padding-bottom: 2%
+.wrapper,.single-card
+  height: 350px
+  max-width: 300px
+  magin: auto
+  margin-top: 5%
+  position: relative
+  margin-bottom: 5%
+  text-align: center
 
-.image-container
-  flex: 1
-  overflow: visible /* Permite que el contenido sobresalga del contenedor */
-
-.nosotros_container div
-  flex: 1 /* Hace que cada div ocupe el mismo espacio en el contenedor */
-  max-width: 80% /* Limita el ancho de cada div al 50% del contenedor */
+.wrapper
+  perspective: 600px
 
 
-.nosotros_container img
-  max-width: 18% /* La imagen no será más ancha que su contenedor */
-  height: auto /* Mantiene la proporción de la imagen */
-  display: block /* Ajusta el comportamiento del espacio alrededor de la imagen */
-  margin: 0 auto
+.single-card
+  text-align: center
+  transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8)
+  transform-style: preserve-3d
+
+.wrapper:hover .single-card
+  transform: rotateY(180deg)
+
+.front, .back
+  width: 265px
+  position: relative
+  top: 0
+  left: 0
+  backface-visibility: hidden
+
+.front
+  cursor: pointer
+  height: 100%
+  background-image:  url("../../assets/imagenes/samurai.png")
+  backface-visibility: hidden
+  border-radius: 50px
+  background-size: cover
+  background-position: center center
+
+.back
+  transform: rotateY(180deg)
   position: absolute
-  transform: scale(1.8) translateX(25%)
-  margin-left: 15%
+  border-radius: 50px
+  height: 100%
+  background: #f5b8b8
 
-.arrow
-  display: flex
-  justify-content: center
+.content
+  padding: 10% 0
+  text-align: center
 
-.arrow img
-  margin-right: 50%
+.content h2
+  font-size: 22px
+  margin: 0
+  font-weight: 300
 
-.nosotros_container h2
-  color: #FFFFFF
-
-.nosotros_container p
-  color: #FFFFFF /* Cambia el color del texto según tus preferencias */
-  font-size: 15px
-  text-align: justify
-
-.follow_us
-  font-size: 15px
+.content p
+  font-size:  14px
 
 
 
-/* Misión, visión y valores*/
-.nosotros_text
-  padding: 30px
-
-.container_mision
-  text-align: left
-  padding-right: 40%
-.container_vision
-  text-align: right
-  padding-left: 41%
-  padding-top: -100rem
-  padding-bottom: 2rem
-
-/*media querys*/
-
-@media (min-width:550px)
-  .video_section
-    padding: 5% 5%
-    width: 100%
-  iframe
-    height: 240px
-    width: 80%
-  .nosmotiva
-    padding-bottom: 1.5%
-    font-size: 20px
-  .follow_us
-    font-size: 15px
-  .nosotros_text
-    font-size: 15px
-  .nosotros_container img
-    max-width: 13%
-
-@media (min-width:750px)
-  .video_section
-    padding: 5% 5%
-    width: 100%
-  iframe
-    height: 320px
-    width: 80%
-  .nosmotiva
-    padding-bottom: 1.5%
-    font-size: 29px
-  .follow_us
-    font-size: 15px
-  .nosotros_text
-    font-size: 23px
-  .nosotros_container img
-    max-width: 11%
 
 
-@media (min-width:1050px)
-  .video_section
-    padding: 5% 5%
-    width: 100%
-  iframe
-    height: 370px
-    width: 80%
-  .nosmotiva
-    padding-bottom: 1.5%
-    font-size: 35px
-  .follow_us
-    font-size: 15px
-  .nosotros_text
-    font-size: 26px
-  .nosotros_container img
-    max-width: 10%
 
-@media (min-width:1200px)
-  .nosotros_container img
-    max-width: 11%
-
-@media (min-width:1500px)
-  .nosotros_container img
-    max-width: 9%
-
-@media (min-width:1850px)
-  .nosotros_container img
-    max-width: 7%
