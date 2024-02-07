@@ -28,28 +28,34 @@
 .wrapper:hover .single-card
   transform: rotateY(180deg)
 
-.front, .back
+.front1,.front2,.front3, .back
   width: 265px
   position: relative
   top: 0
   left: 0
   backface-visibility: hidden
 
-.front
+.front1,.front2,.front3
   cursor: pointer
   height: 100%
-  background-image:  url("../../assets/imagenes/samurai.png")
   backface-visibility: hidden
   border-radius: 50px
   background-size: cover
   background-position: center center
+
+.front1
+  background-image:  url("../../assets/imagenes/vision.jpg")
+.front2
+  background-image:  url("../../assets/imagenes/mision.jpg")
+.front3
+  background-image:  url("../../assets/imagenes/valoresCorporativos.jpg")
 
 .back
   transform: rotateY(180deg)
   position: absolute
   border-radius: 50px
   height: 100%
-  background: #f5b8b8
+  background: #d686c0
 
 .content
   padding: 10% 0
@@ -59,9 +65,11 @@
   font-size: 22px
   margin: 0
   font-weight: 300
+  margin: 5%
 
 .content p
   font-size:  14px
+  margin: 5%
 
 
 

@@ -1,112 +1,42 @@
-<!-- <h1>Nuestros Proyectos</h1>
-<div class="proyectos">
-  <div class="columna izquierda">
-    <div class="tarjeta_container">
-      <div class="tarjeta_img">
-        <img src="assets/imagenes/construccion.jpg" alt="construccion"/>
-      </div>
-      <div class="derecha proyecto">
-        <h4>PonteVedra</h4>
-      </div>
-      <div class="derecha direccion">
-        <p>Calle 98 #14-05</p>
-      </div>
-      <div class="derecha iconos">
-        <img src="assets/imagenes/Baloncesto.png" alt="" />
-        <img src="assets/imagenes/asensor.png" alt="" />
-        <img src="assets/imagenes/Parking.png" alt="" />
-        <img src="assets/imagenes/zonaverde.png" alt="" />
-      </div>
-      <div class="tarjeta contact">
-        <a
-          href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de este proyecto: PonteVedra"
-          class="btn_Contactar"
-          target="_blank"
-          >Contactar</a
-        >
-      </div>
-    </div>
-    <div class="tarjeta_container">
-      <div class="tarjeta_img">
-        <img src="assets/imagenes/construccion.jpg" alt="construccion"/>
-      </div>
-      <div class="derecha proyecto">
-        <h4>PonteVedra</h4>
-      </div>
-      <div class="derecha direccion">
-        <p>Calle 98 #14-05</p>
-      </div>
-      <div class="derecha iconos">
-        <img src="assets/imagenes/Baloncesto.png" alt="" />
-        <img src="assets/imagenes/asensor.png" alt="" />
-        <img src="assets/imagenes/Parking.png" alt="" />
-        <img src="assets/imagenes/zonaverde.png" alt="" />
-      </div>
-      <div class="tarjeta contact">
-        <a
-          href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de este proyecto: PonteVedra"
-          class="btn_Contactar"
-          target="_blank"
-          >Contactar</a
-        >
-      </div>
-    </div>
-  </div>
-  <div class="columna derecha">
-      <div class="tarjeta_container">
-        <div class="tarjeta_img">
-          <img src="assets/imagenes/construccion.jpg" />
-        </div>
-        <div class="derecha proyecto">
-          <h4>PonteVedra</h4>
-        </div>
-        <div class="derecha direccion">
-          <p>Calle 98 #14-05</p>
-        </div>
-        <div class="derecha iconos">
-          <img src="assets/imagenes/Baloncesto.png" alt="" />
-          <img src="assets/imagenes/asensor.png" alt="" />
-          <img src="assets/imagenes/Parking.png" alt="" />
-          <img src="assets/imagenes/zonaverde.png" alt="" />
-        </div>
-        <div class="tarjeta contact">
-          <a
-            href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de este proyecto: PonteVedra"
-            class="btn_Contactar"
-            target="_blank"
-            >Contactar</a
-          >
-        </div>
-      </div>
-      <div class="tarjeta_container">
-        <div class="tarjeta_img">
-          <img src="assets/imagenes/construccion.jpg" />
-        </div>
-        <div class="derecha proyecto">
-          <h4>PonteVedra</h4>
-        </div>
-        <div class="derecha direccion">
-          <p>Calle 98 #14-05</p>
-        </div>
-        <div class="derecha iconos">
-          <img src="assets/imagenes/Baloncesto.png" alt="" />
-          <img src="assets/imagenes/asensor.png" alt="" />
-          <img src="assets/imagenes/Parking.png" alt="" />
-          <img src="assets/imagenes/zonaverde.png" alt="" />
-        </div>
-        <div class="tarjeta contact">
-          <a
-            href="https://api.whatsapp.com/send?phone=573225877335&text=Hola, Me interesa saber más de este proyecto: PonteVedra"
-            class="btn_Contactar"
-            target="_blank"
-            >Contactar</a
-          >
-        </div>
-      </div>
-  </div>
-</div>
-<div class="btns">
-<button class='previous' type='button'>Anterior</button>
-<button class='next' type='button'>Siguiente</button>
-</div>
- -->
+<main>
+  <section id="introduccion">
+      <h2>{{ "introduccionPoliticas" | translate }}</h2>
+      <p>{{ "introduccionParrafo" | translate }}</p>
+  </section>
+  <section id="politicas">
+      <h2>Políticas</h2>
+      <ul>
+          <li>
+              <details>
+                  <summary>{{ "summaryPasswords" | translate }}</summary>
+                  <ul>
+                      <li >{{ "passwordsP1" | translate }}</li>
+                      <li >{{ "passwordsP2" | translate }}</li>
+                      <li >{{ "passwordsP3" | translate }}</li>
+                      <li >{{ "passwordsP4" | translate }}</li>
+                  </ul>
+              </details>
+          </li>
+          <li>
+              <details>
+                  <summary>{{ "summaryAccesInformation" | translate }}</summary>
+                  <ul>
+                      <li >{{ "accesP1" | translate }}</li>
+                      <li >{{ "accesP2" | translate }}</li>
+                      <li >{{ "accesP3" | translate }}</li>
+                  </ul>
+              </details>
+          </li>
+          <li>
+              <details>
+                  <summary>{{ "summaryDispositivos" | translate }}</summary>
+                  <ul>
+                      <li >{{ "dispositivosP1" | translate }}</li>
+                      <li >{{ "dispositivosP2" | translate }}</li>
+                      <li >{{ "dispositivosP3" | translate }}</li>
+                  </ul>
+              </details>
+          </li>
+      </ul>
+  </section>
+</main>
