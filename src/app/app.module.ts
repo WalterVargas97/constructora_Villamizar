@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ProyectosComponent } from './proyects/proyectos.component';
+import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { FormularioComponent } from './form/formulario.component';
-import { ServiciosComponent } from './our services/servicios.component';
+import { ServiciosComponent } from './ourServices/servicios.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './slider/slider.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -26,7 +26,7 @@ register();
   declarations: [
     AppComponent,
     HomeComponent,
-    ProyectosComponent,
+    PrivacyPolicyComponent,
     NosotrosComponent,
     FormularioComponent,
     ServiciosComponent,

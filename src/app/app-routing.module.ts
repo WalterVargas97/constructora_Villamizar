@@ -3,15 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormularioComponent } from './form/formulario.component';
 import { HomeComponent } from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-import { ProyectosComponent } from './proyects/proyectos.component';
-import { ServiciosComponent } from './our services/servicios.component';
+import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
+import { ServiciosComponent } from './ourServices/servicios.component';
 import { SliderComponent } from './slider/slider.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 
 const routes: Routes = [
   {
-    path:'proyectos',
-    component:ProyectosComponent
+    path:'privacyPolicy',
+    component:PrivacyPolicyComponent
   },
   {
     path:'',
